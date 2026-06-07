@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+dataset_words/
+dataset_custom/
+keypoint/
+morpheme/
+.pytest_cache/
+*.mp4
+*.avi
+*.zip
+
+# 환경 변수 파일 제외 (추가)
+.env
