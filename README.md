@@ -111,6 +111,18 @@ pip install scikit-learn==1.4.2 scipy==1.15.3 pandas==2.3.3 matplotlib==3.10.9 s
 python main.py
 ```
 
+**4-1. 데이터셋 종합 (Dataset)**
+```console
+python convert_data_mine.py
+```
+
+**4-2. 모델 학습 (Model)**
+```console
+python train_convert_mine.py
+```
+
+***AIHUB의 데이터셋이 필요할 시, https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=103 참고.***
+
 ## 한계점 (Limitation)
 **1. 수화 인식 더딤 & 오류**
 * 수화 인식이 더디고 오류가 날 때가 굉장히 다분했습니다. 특히 시퀀스가 많아지면 많아질수록 Accuracy가 떨어지는 것을 보고 아마 Overfit 현상이 아닐까 싶어 처음부터 단어들을 모두 시퀀스를 다시 3개로 지정하여 찍었는데도 만족스러운 결과는 아니었습니다.
