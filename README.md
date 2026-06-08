@@ -61,7 +61,7 @@ PyQt6 Main GUI Display  <──  Morpheme Prediction (23 Classes)  <────
 | ![Main Menu Placeholder](./images/translator.png) | ![Game Page Placeholder](./images/game.png) |
 
 ---
-
+*
 ├── .venv                     # 패키지 버전 간 충돌이 격리된 청정 가상환경
 │
 ├── data_aihub/               # [Pipeline] AIHUB 대규모 데이터 전처리 및 학습
